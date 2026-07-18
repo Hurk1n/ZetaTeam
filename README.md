@@ -5,7 +5,7 @@
 ![GitHub language count](https://img.shields.io/github/languages/count/Hurk1n/ZetaTeam)
 ![Static Badge](https://img.shields.io/badge/stack-HTML%20%2F%20CSS%20%2F%20JS-black)
 
-杭州电子科技大学信息工程学院 · 网络安全 CTF 学生战队官网源码。
+杭州电子科技大学信息工程学院 · Zeta战队官网源码。
 
 仓库地址：https://github.com/Hurk1n/ZetaTeam
 
@@ -37,16 +37,6 @@ python -m http.server 5173 --directory .
 
 `js/data.js`
 
-#### 修改站点信息
-
-```js
-site: {
-  name: "Zeta",
-  org: "杭州电子科技大学信息工程学院",
-  qqGroup: "689259559",
-  wechatLabel: "微信公众号"
-}
-```
 
 #### 增加 / 修改成员
 
