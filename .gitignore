@@ -1,0 +1,7 @@
+# 仅站点交付物；中间产物不入库
+tmp/
+output/
+.DS_Store
+Thumbs.db
+*.log
+.playwright-mcp/
