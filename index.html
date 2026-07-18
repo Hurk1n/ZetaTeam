@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="description" content="Zeta 战队 · 杭州电子科技大学信息工程学院网络安全战队" />
+  <title>Zeta Team</title>
+  <link rel="icon" href="public/zeta-logo.jpg" type="image/jpeg" />
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+  <a class="skip-link" href="#home">跳到内容</a>
+  <header class="site-header" id="top">
+    <div class="container header-inner">
+      <a class="brand" href="#home" aria-label="Zeta 首页">
+        <img class="brand-logo" src="public/zeta-logo.jpg" alt="Zeta logo" width="36" height="36" />
+        <span class="brand-text">ZETA</span>
+      </a>
+      <button class="nav-toggle" id="navToggle" type="button" aria-expanded="false" aria-controls="siteNav" aria-label="打开导航">
+        <span></span><span></span><span></span>
+      </button>
+      <nav class="site-nav" id="siteNav" aria-label="主导航">
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#members">Members</a>
+        <a href="#awards">Awards</a>
+        <a href="#join">Join</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="section hero" id="home">
+      <div class="hero-grid" aria-hidden="true"></div>
+      <div class="container hero-content">
+        <img class="hero-logo" src="public/zeta-logo.jpg" alt="Zeta 队标" width="120" height="120" />
+        <h1 class="hero-title">ZETA</h1>
+        <p class="hero-sub">杭州电子科技大学信息工程学院 · 网络安全战队</p>
+        <p class="hero-tags"><span>Web</span><span>Pwn</span><span>Reverse</span><span>Crypto</span><span>Misc</span></p>
+        <p class="hero-lead">专注网络安全技术研究与竞赛实践，为热爱安全技术的同学提供交流与成长的平台。</p>
+        <div class="hero-actions">
+          <a class="btn btn-solid" href="#members">Members</a>
+          <a class="btn btn-outline" href="#join">Join Us</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="section about" id="about">
+      <div class="container">
+        <header class="section-head">
+          <h2>About</h2>
+          <p class="section-rule" aria-hidden="true"></p>
+        </header>
+        <div class="about-prose">
+          <h3>战队简介</h3>
+          <p><strong>Zeta 战队</strong>是由杭州电子科技大学信息工程学院学生组建的专业技术团队，面向对网络安全技术感兴趣的同学，专注于网络安全技术研究与实践，主要参与 CTF（Capture The Flag）竞赛及相关安全活动。</p>
+          <p>战队由热爱网络安全的在校学生组成，致力于提升成员的安全技能、团队协作与竞赛水平。研究方向覆盖 Web 安全、二进制安全、软件逆向、密码学与杂项等核心方向。无论是初学者还是已有一定基础的爱好者，只要对网络安全抱有热情，我们都欢迎你的加入。</p>
+          <p>团队通过日常训练、技术分享与赛事实践，推动校园网络安全氛围建设，并为成员积累可迁移的专业能力与竞赛经验。</p>
+        </div>
+        <div class="about-grid about-grid-secondary">
+          <article class="about-card">
+            <h3>什么是 CTF</h3>
+            <p>CTF 是网络安全领域常见的技术竞技形式，起源于 DEFCON 全球黑客大会。题目将安全知识点抽象为可实践的挑战，参赛者通过理解与利用相关漏洞或机制完成解题。常见方向包括 Web、Pwn、Reverse、Crypto、Misc；线下决赛亦可能采用 AWD / AWDP、应急响应与综合渗透等形式。</p>
+          </article>
+          <article class="about-card">
+            <h3>技术方向</h3>
+            <ul class="dir-list">
+              <li><strong>Web</strong> 网站漏洞挖掘与利用</li>
+              <li><strong>Pwn</strong> 程序漏洞分析与利用</li>
+              <li><strong>Reverse</strong> 软件逆向与算法还原</li>
+              <li><strong>Crypto</strong> 密码分析与攻击</li>
+              <li><strong>Misc</strong> 隐写、取证、流量与 OSINT</li>
+            </ul>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section members" id="members">
+      <div class="container">
+        <header class="section-head">
+          <h2>Members</h2>
+          <p class="section-rule" aria-hidden="true"></p>
+        </header>
+        <div class="filters" id="memberFilters" role="tablist" aria-label="成员方向筛选"></div>
+        <div class="member-grid" id="memberGrid"></div>
+      </div>
+    </section>
+
+    <section class="section awards" id="awards">
+      <div class="container">
+        <header class="section-head">
+          <h2>Awards</h2>
+          <p class="section-rule" aria-hidden="true"></p>
+        </header>
+        <ol class="award-list" id="awardList"></ol>
+      </div>
+    </section>
+
+    <section class="section join" id="join">
+      <div class="container">
+        <header class="section-head">
+          <h2>Join Us</h2>
+          <p class="section-rule" aria-hidden="true"></p>
+        </header>
+        <div class="join-layout">
+          <div class="benefit-grid" id="benefitGrid"></div>
+          <aside class="contact-card">
+            <h3>联系我们</h3>
+            <p class="contact-note">欢迎关注微信公众号，或加入招新 QQ 群获取最新信息。</p>
+            <div class="qr-wrap">
+              <img src="public/zeta-wechat-qr.jpg" alt="Zeta 微信公众号二维码" width="200" height="200" loading="lazy" />
+              <span>微信公众号</span>
+            </div>
+            <dl class="contact-meta">
+              <div><dt>QQ 招新群</dt><dd id="qqGroup">—</dd></div>
+              <div><dt>招新说明</dt><dd>只要你有对网络安全的热爱和坚持下去的毅力，我们都欢迎你</dd></div>
+            </dl>
+          </aside>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <div class="footer-brand">
+        <img src="public/zeta-logo.jpg" alt="" width="28" height="28" />
+        <span>ZETA Team</span>
+      </div>
+      <p class="footer-copy">© <span id="year"></span> Zeta · 杭州电子科技大学信息工程学院</p>
+    </div>
+  </footer>
+
+  <script src="js/data.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>
