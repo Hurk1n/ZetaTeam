@@ -20,6 +20,13 @@ window.ZETA_DATA = {
       bio: "Something for nothing.",
       blog: "http://www.hurkin.top/",
       avatar: "https://weavatar.com/avatar/605ccd4cc2149fa90a6b849274e514afb8b97ff0df586ce405eec556915efc27?s=96&r=g"
+    },
+    {
+      name: "luxlu",
+      direction: "Misc",
+      bio: "天天开心^_^",
+      blog: "http://www.luxlu.top/",
+      avatar: "https://luxlu.top/img/avatar.jpg"
     }
   ],
   awards: [
