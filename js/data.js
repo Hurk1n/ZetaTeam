@@ -47,7 +47,14 @@ window.ZETA_DATA = {
     {
       year: "2026",
       title: "浙江省大学生网络与信息安全竞赛",
-      place: "二等奖",
+      place: "一等奖",
+      note: "",
+      top: false
+    },
+    {
+      year: "2025",
+      title: "浙江省大学生网络与信息安全竞赛",
+      place: "一等奖",
       note: "",
       top: false
     }
