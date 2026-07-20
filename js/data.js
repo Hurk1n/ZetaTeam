@@ -27,7 +27,14 @@ window.ZETA_DATA = {
       bio: "天天开心^_^",
       blog: "http://www.luxlu.top/",
       avatar: "https://luxlu.top/img/avatar.jpg"
-    }
+    },
+    {
+      name: "M4rt3n",
+      direction: "Misc",
+      bio: "Life's a Struggle",
+      blog: "",
+      avatar: "https://www.hurkin.top/wp-content/uploads/2026/07/1784557646-M4rt3n.jpg"
+    }  
   ],
   awards: [
     {
@@ -74,7 +81,7 @@ window.ZETA_DATA = {
     },
     {
       title: "经历沉淀",
-      desc: "实验室与战队学习、竞赛实践经历，有助于夯实专业能力并提升简历竞争力。"
+      desc: "实验室与战队学习、竞赛实践经历，有助于夯实专业能力并提升简历竞争力；简历内推以及项目经验积累。"
     }
   ]
 };
