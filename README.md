@@ -8,6 +8,7 @@
 杭州电子科技大学信息工程学院 · Zeta战队官网源码。
 
 仓库地址：https://github.com/Hurk1n/ZetaTeam
+部署在:www.hurkin.top/zetateam
 
 ## About
 
